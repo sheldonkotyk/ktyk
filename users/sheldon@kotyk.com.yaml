@@ -2,3 +2,9 @@ name: 'Sheldon Kotyk'
 super: true
 id: 30240118-ccf0-437f-a925-abf0a38bac95
 password_hash: $2y$10$qVGZNfWmOOT5LxlGa7.zSutXp/91nNBIz7LDYbpeXs2JqaBb5P8ji
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing
+    blogs:
+      after_save: continue_editing

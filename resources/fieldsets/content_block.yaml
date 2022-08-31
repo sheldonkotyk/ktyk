@@ -36,3 +36,42 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      sets:
+        image_with_caption:
+          display: 'Image with Caption'
+          fields:
+            -
+              handle: image
+              field:
+                mode: grid
+                restrict: false
+                allow_uploads: true
+                max_files: 1
+                type: assets
+                display: Image
+                container: main
+                folder: pages
+                listable: hidden
+                instructions_position: above
+                show_filename: true
+            -
+              handle: caption
+              field:
+                character_limit: 0
+                type: text
+                display: Caption
+            -
+              handle: locate
+              field:
+                options:
+                  left: 'Float Left'
+                  right: 'Float Right'
+                  center: Center
+                  full: 'Full Width'
+                clearable: true
+                multiple: false
+                searchable: true
+                taggable: false
+                push_tags: false
+                type: select
+                display: Locate

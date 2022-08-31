@@ -7,13 +7,13 @@
 		{{ elseif locate == 'center' }}
 			w-full md:w-1/2
 		{{ elseif locate == 'full' }}
-			w-full mb-8 md:m-0
+			w-full my-8
 		{{ /if }}
-	">
+	    ">
 		<img class="w-full" src="{{ image }}" alt="{{caption}}">
 		{{ if caption }}
 			<div class="px-6 py-4">
-				<div class="font-bold text-sm mb-2 text-center">{{caption}}</div>
+				<div class="mb-2 text-sm font-bold text-center">{{caption}}</div>
 			</div>
 		{{ /if }}
 	</div>

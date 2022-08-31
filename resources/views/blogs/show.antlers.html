@@ -14,6 +14,14 @@
             <div class="pt-8 mt-8 border-t content">
                 {{ content }}
             {{ /if }}
+
+            {{ if content_area }}
+                <div class="pt-8 mt-8 border-t content">
+                    {{ content_area }}
+                        {{ partial src="default/{type}" }}
+                    {{ /content_area }}
+                </div>
+            {{ /if }}
         </article>
     </div>
 </div>
