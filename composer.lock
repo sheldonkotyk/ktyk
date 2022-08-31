@@ -4709,16 +4709,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.3.32",
+            "version": "v3.3.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "062eff3b3e53106b5e8a19ec71c205a71a635fa1"
+                "reference": "5bf6a080cccf5421a1f76b59e677c0b9550118aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/062eff3b3e53106b5e8a19ec71c205a71a635fa1",
-                "reference": "062eff3b3e53106b5e8a19ec71c205a71a635fa1",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/5bf6a080cccf5421a1f76b59e677c0b9550118aa",
+                "reference": "5bf6a080cccf5421a1f76b59e677c0b9550118aa",
                 "shasum": ""
             },
             "require": {
@@ -4796,7 +4796,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.3.32"
+                "source": "https://github.com/statamic/cms/tree/v3.3.33"
             },
             "funding": [
                 {
@@ -4804,7 +4804,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-08-25T14:11:41+00:00"
+            "time": "2022-08-31T19:42:47+00:00"
         },
         {
             "name": "statamic/podcast-categories",

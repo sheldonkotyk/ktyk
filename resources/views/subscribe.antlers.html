@@ -1,7 +1,7 @@
-<div class="max-w-6xl mx-auto px-6 relative z-10">
+<div class="relative z-10 max-w-6xl px-6 mx-auto">
     <div class="flex items-center">
-        <article class="pr-32 flex-1 pt-16 pb-8">
-            <h1 class="mb-8">{{ title }} to {{ podcast:title }}</h1>
+        <article class="flex-1 pt-16 pb-8 pr-32">
+            <h1 class="mb-8">{{ title }}</h1>
             <div class="flex items-center mt-8 space-x-6">
                 {{ links }}
                     <a href="{{ link }}">
@@ -12,8 +12,5 @@
                 {{ /links }}
             </div>
         </article>
-        <div class="w-[350px]">
-            <img src="{{ podcast:cover_art }}" alt="{{ podcast:title }} Cover Artwork" width="500" class="shadow-2xl">
-        </div>
     </div>
 </div>

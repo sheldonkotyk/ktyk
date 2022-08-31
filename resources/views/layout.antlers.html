@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="{{ site:short_locale }}">
     <head>
+        {{ user:isnt role="admin" && environment=="production" }}
+            <!-- Fathom - beautiful, simple website analytics -->
+            <script src="https://cdn.usefathom.com/script.js" data-site="QXGRGVJV" defer></script>
+            <!-- / Fathom -->
+        {{ /user:isnt }}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,6 +30,11 @@
     <body class="relative h-full min-h-screen bg-white">
         <nav class="relative z-10 max-w-6xl px-6 py-6 mx-auto font-mono border-b md:py-20 md:border-0">
             <ul class="flex justify-center space-x-10 text-sm md:justify-start">
+                <li>
+                    <a class="py-px hover:text-gray-700" href="/">
+                        Kotyk.com
+                    </a>
+                </li>
                 {{ nav:main_menu include_home="true" }}
                     <li>
                         <a class="py-px hover:text-gray-700 {{ is_current || is_parent ?= 'font-bold border-b-3 border-black' }}" href="{{ url }}">

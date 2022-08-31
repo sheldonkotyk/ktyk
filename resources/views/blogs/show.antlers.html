@@ -10,13 +10,16 @@
                     </div>
                 </div>
             </div>
+            {{ if feature_image }}
+                {{ asset:feature_image }}<img class="mt-4" src="{{ feature_image }}"/>{{ /asset:feature_image }}
+            {{ /if }}
             {{ if content }}
             <div class="pt-8 mt-8 border-t content">
                 {{ content }}
             {{ /if }}
 
             {{ if content_area }}
-                <div class="pt-8 mt-8 border-t content">
+                <div class="pt-8 mt-8 content">
                     {{ content_area }}
                         {{ partial src="default/{type}" }}
                     {{ /content_area }}

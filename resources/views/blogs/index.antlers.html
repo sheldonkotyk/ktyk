@@ -2,7 +2,7 @@
     <div class="flex flex-col md:flex-row">
         <article class="flex-1 order-2 pt-16 pb-8 md:order-first md:pr-32">
             <h1 class="mb-8">{{ title }}</h1>
-            {{ collection:blogs sort="date:asc" }}
+            {{ collection:blogs sort="date:desc" }}
                 {{ partial:blogs/card }}
             {{ /collection:blogs }}
         </article>

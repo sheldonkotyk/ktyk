@@ -6,6 +6,10 @@ data:
       url: 'https://twitter.com/shoden'
       icon: theme/social/twitter.svg
     -
+      name: Instagram
+      url: 'https://instagram.com/shoden'
+      icon: theme/social/instagram.svg
+    -
       name: Github
       url: 'https://github.com/sheldonkotyk'
       icon: theme/social/github.svg

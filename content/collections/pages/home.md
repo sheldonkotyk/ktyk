@@ -12,9 +12,88 @@ content_area:
     content:
       -
         type: text
-        text: asdf
-published: true
+        text: "Sheldon is Julie's husband and the father of Kristin, Ava & Jamie. "
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /boston
+              rel: null
+              target: null
+              title: null
+        text: 'His dog Boston'
+      -
+        type: text
+        text: ' takes him for walks. His wife and kids have '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.instagram.com/p/BBq8DhcNOpM/'
+              rel: null
+              target: _blank
+              title: null
+        text: '2 cats'
+      -
+        type: text
+        text: ' that just lay there and a kitten that Satan created.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Sheldon is the Director of '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://p2cdigital.com'
+              rel: null
+              target: null
+              title: null
+        text: 'Digital Strategies'
+      -
+        type: text
+        text: ' for '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://p2c.com'
+              rel: null
+              target: null
+              title: null
+        text: 'Power to Change'
+      -
+        type: text
+        text: '. He serves a team of more than 20 dedicated staff and hundreds of online missionaries.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'In his spare time, Sheldon provides web services such as web design and development, SEO, strategic planning and marketing through '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://abigah.com'
+              rel: null
+              target: null
+              title: null
+        text: 'Abigah Co.'
 updated_by: 30240118-ccf0-437f-a925-abf0a38bac95
-updated_at: 1661959830
+updated_at: 1661984014
+published: true
 ---
 Welcome to your new Statamic website.

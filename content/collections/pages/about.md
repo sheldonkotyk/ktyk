@@ -3,6 +3,205 @@ id: 144bc2cd-9b3c-498e-bc14-6e225c050063
 blueprint: pages
 title: About
 updated_by: 30240118-ccf0-437f-a925-abf0a38bac95
-updated_at: 1661960829
+updated_at: 1661983444
+content_area:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'My name is Sheldon Kotyk.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'I am the Director of '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://p2cdigital.com'
+              rel: null
+              target: _blank
+              title: null
+        text: 'Digital Strategies'
+      -
+        type: text
+        text: ", a ministry of\_"
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://p2c.com'
+              rel: null
+              target: null
+              title: null
+        text: 'Power to Change'
+      -
+        type: text
+        text: '. For my ministry updates, '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://dsdispatch.com'
+              rel: null
+              target: _blank
+              title: null
+        text: 'keep an eye out here'
+      -
+        type: text
+        text: .
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "I married my\_"
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://juliekotyk.com'
+              rel: null
+              target: null
+              title: null
+        text: 'best friend Julie'
+      -
+        type: text
+        text: "\_and we have three daughters;\_"
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://kristinkotyk.com'
+              rel: null
+              target: null
+              title: null
+        text: Kristin
+      -
+        type: text
+        text: ",\_"
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://avakotyk.com'
+              rel: null
+              target: null
+              title: null
+        text: Ava
+      -
+        type: text
+        text: "\_and\_"
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://jamiekotyk.com'
+              rel: null
+              target: null
+              title: null
+        text: Jamie
+      -
+        type: text
+        text: '. We have a '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /boston
+              rel: null
+              target: null
+              title: null
+        text: 'dog named Boston'
+      -
+        type: text
+        text: ' and also have two cats; Candycorn and Popcorn.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "In my free time, I build web sites and applications under the name\_"
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://abigah.com'
+              rel: null
+              target: null
+              title: null
+        text: Abigah
+      -
+        type: text
+        text: '. '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /abigah
+              rel: null
+              target: null
+              title: null
+        text: 'Why is it called Abigah?'
+      -
+        type: text
+        text: ". How did I learn how to build websites?\_"
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://kotyk.com/about/how-do-i-learn-the-technical'
+              rel: null
+              target: null
+              title: null
+        text: "I'm glad you asked"
+      -
+        type: text
+        text: .
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "If you want to know the details behind Kotyk.com, check out the\_"
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /about/colophon
+              rel: null
+              target: null
+              title: null
+        text: colophon
+      -
+        type: text
+        text: .
 published: true
 ---
