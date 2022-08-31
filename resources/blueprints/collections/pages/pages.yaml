@@ -11,6 +11,8 @@ sections:
           validate:
             - required
       -
+        import: content_block
+      -
         handle: template
         field:
           type: template
@@ -34,7 +36,6 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required
