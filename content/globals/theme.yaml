@@ -1,0 +1,17 @@
+title: Theme
+data:
+  social_links:
+    -
+      name: Twitter
+      url: 'https://twitter.com/shoden'
+      icon: theme/social/twitter.svg
+    -
+      name: Github
+      url: 'https://github.com/sheldonkotyk'
+      icon: theme/social/github.svg
+    -
+      name: Email
+      url: 'mailto:sheldon@kotyk.com'
+      icon: theme/social/email.svg
+  primary_color: '#2C4B89'
+  secondary_color: '#6C5760'

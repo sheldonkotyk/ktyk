@@ -1,0 +1,20 @@
+title: Podcast
+data:
+  title: Kotyk.com
+  description: 'Updates, news, and interviews from Sheldon Kotyk'
+  type: desc
+  primary_category: 'Society & Culture » Personal Journals'
+  secondary_category: News
+  keywords:
+    - Missions
+    - Christianity
+  spoken_language: en
+  author: 'Sheldon Kotyk'
+  copyright: '© {{ now format="Y" }} Sheldon Kotyk'
+  owner_name: 'Sheldon Kotyk'
+  owner_email: sheldon@kotyk.com
+  explicit: false
+  itunes_block: false
+  google_block: false
+  locked: false
+  complete: false
