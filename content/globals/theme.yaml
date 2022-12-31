@@ -2,20 +2,24 @@ title: Theme
 data:
   social_links:
     -
+      id: bCkATpF5
       name: Twitter
       url: 'https://twitter.com/shoden'
       icon: theme/social/twitter.svg
     -
+      id: 5sP6i3y9
       name: Instagram
       url: 'https://instagram.com/shoden'
       icon: theme/social/instagram.svg
     -
+      id: WGmjUqKJ
       name: Github
       url: 'https://github.com/sheldonkotyk'
       icon: theme/social/github.svg
     -
+      id: VthU9rU1
       name: Email
-      url: 'mailto:sheldon@kotyk.com'
+      url: /contact
       icon: theme/social/email.svg
   primary_color: '#2C4B89'
   secondary_color: '#6C5760'
