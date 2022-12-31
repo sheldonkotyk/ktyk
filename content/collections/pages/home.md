@@ -40,7 +40,21 @@ content_area:
         text: '2 cats'
       -
         type: text
-        text: ' that just lay there and a kitten that Satan created.'
+        text: ' that just lay there and '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.instagram.com/theodorecorneliusfeles/'
+              rel: null
+              target: _blank
+              title: null
+        text: 'one that has tons of kitten energy'
+      -
+        type: text
+        text: .
   -
     type: paragraph
     content:
@@ -74,7 +88,7 @@ content_area:
         text: 'Power to Change'
       -
         type: text
-        text: '. He serves a team of more than 20 dedicated staff and hundreds of online missionaries.'
+        text: '. He serves a team of more than 40 dedicated staff and hundreds of online missionaries.'
   -
     type: paragraph
     content:
@@ -93,7 +107,7 @@ content_area:
               title: null
         text: 'Abigah Co.'
 updated_by: 30240118-ccf0-437f-a925-abf0a38bac95
-updated_at: 1661984014
+updated_at: 1666353669
 published: true
 ---
 Welcome to your new Statamic website.
