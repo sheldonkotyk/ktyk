@@ -38,6 +38,16 @@ content_area:
         type: text
         text: "Join Sheldon and Kirk at 1:00PM Eastern Time on Wednesdays. Don't forget to like, subscribe, and hit the bell to be notified of future livestreams as well as the well produced videos that Kirk occasionally drops."
   -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Recent Streams'
+  -
+    type: paragraph
+  -
     type: set
     attrs:
       id: lcbb08qa
@@ -57,5 +67,5 @@ content_area:
   -
     type: paragraph
 updated_by: 30240118-ccf0-437f-a925-abf0a38bac95
-updated_at: 1672452708
+updated_at: 1672453200
 ---
