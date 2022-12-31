@@ -1,0 +1,10 @@
+<footer class="relative z-10 max-w-6xl px-6 py-6 mx-auto mt-6 font-mono border-t md:border-none " x-data :class="$store.player.playing && 'pb-24'">
+    <p class="text-sm text-gray-500"">{{ podcast:copyright }}</p>
+    <div class="flex flex-wrap items-center mt-4 space-x-5 md:justify-start">
+    {{ theme:social_links }}
+        <a href="{{ url }}" class="flex items-center w-5 h-5 text-gray-500 hover:text-black" title="{{ name }}">
+            {{ svg :src="icon" aria-label="{name} icon" role="img" class="" }}
+        </a>
+    {{ /theme:social_links }}
+    </div>
+</footer>

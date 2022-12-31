@@ -10,7 +10,7 @@ data:
     - Christianity
   spoken_language: en
   author: 'Sheldon Kotyk'
-  copyright: '© {{ now format="Y" }} Sheldon Kotyk'
+  copyright: '©{{ now format="Y" }} Sheldon Kotyk'
   owner_name: 'Sheldon Kotyk'
   owner_email: sheldon@kotyk.com
   explicit: false
