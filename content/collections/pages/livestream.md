@@ -16,7 +16,18 @@ content_area:
     content:
       -
         type: text
-        text: 'Sheldon is the co-host of Quest, with Kirk Durston. A weekly show where topics of faith, science, and philosophy are discussed '
+        text: 'Sheldon is the co-host of '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: italic
+        text: 'Quest with Kirk Durston'
+      -
+        type: text
+        text: '. A weekly show where topics of faith, science, and philosophy are discussed '
       -
         type: text
         marks:
@@ -67,5 +78,5 @@ content_area:
   -
     type: paragraph
 updated_by: 30240118-ccf0-437f-a925-abf0a38bac95
-updated_at: 1672453200
+updated_at: 1672454404
 ---

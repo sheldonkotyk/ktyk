@@ -39,6 +39,18 @@ sections:
           visibility: visible
           always_save: false
       -
+        handle: phone
+        field:
+          input_type: tel
+          antlers: false
+          display: Phone
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         handle: comment
         field:
           antlers: false
