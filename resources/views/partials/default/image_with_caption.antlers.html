@@ -10,7 +10,7 @@
 			w-full my-8
 		{{ /if }}
 	    ">
-		<img class="w-full" src="{{ image }}" alt="{{caption}}">
+		<img class="w-full" src="{{ glide:image width='1920' height='1280' format='webp' fit='crop_focal' }}" alt="{{caption}}">
 		{{ if caption }}
 			<div class="px-6 py-4">
 				<div class="mb-2 text-sm font-bold text-center">{{caption}}</div>
@@ -18,3 +18,5 @@
 		{{ /if }}
 	</div>
 </div>
+
+

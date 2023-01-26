@@ -107,6 +107,6 @@ content_area:
               title: null
         text: 'Abigah Co.'
 updated_by: 30240118-ccf0-437f-a925-abf0a38bac95
-updated_at: 1672453076
+updated_at: 1673900426
 ---
 Welcome to your new Statamic website.
