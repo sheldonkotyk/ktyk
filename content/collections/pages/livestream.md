@@ -66,13 +66,13 @@ content_area:
         type: two_videos
         videos:
           -
-            id: lcbb09ng
-            video_url: 'https://www.youtube.com/watch?v=Ek0a97qT3YY'
+            id: ldcjysnd
+            video_url: 'https://www.youtube.com/watch?v=KJvMjGViPME'
             type: video
             enabled: true
           -
-            id: lcbb3v9a
-            video_url: 'https://www.youtube.com/watch?v=jtSbmesl1JU'
+            id: ld4ojfoe
+            video_url: 'https://www.youtube.com/watch?v=zM3x-ci-OPk'
             type: video
             enabled: true
   -
@@ -96,5 +96,5 @@ content_area:
         type: text
         text: .
 updated_by: 30240118-ccf0-437f-a925-abf0a38bac95
-updated_at: 1673493725
+updated_at: 1674710691
 ---
