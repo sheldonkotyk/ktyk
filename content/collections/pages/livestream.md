@@ -67,12 +67,12 @@ content_area:
         videos:
           -
             id: ldcjysnd
-            video_url: 'https://www.youtube.com/watch?v=KJvMjGViPME'
+            video_url: 'https://www.youtube.com/watch?v=UrtCHVyuAdQ'
             type: video
             enabled: true
           -
             id: ld4ojfoe
-            video_url: 'https://www.youtube.com/watch?v=zM3x-ci-OPk'
+            video_url: 'https://www.youtube.com/watch?v=kC5h6Rb1r1M'
             type: video
             enabled: true
   -
@@ -96,5 +96,5 @@ content_area:
         type: text
         text: .
 updated_by: 30240118-ccf0-437f-a925-abf0a38bac95
-updated_at: 1674710691
+updated_at: 1677215135
 ---
