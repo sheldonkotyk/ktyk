@@ -17,6 +17,11 @@ fields:
         - anchor
         - image
         - table
+        - strikethrough
+        - alignleft
+        - aligncenter
+        - alignright
+        - alignjustify
       save_html: false
       toolbar_mode: fixed
       link_noopener: false
@@ -995,3 +1000,6 @@ fields:
                 instructions_position: above
                 visibility: visible
                 always_save: false
+      collapse: false
+      smart_typography: false
+      inline: false

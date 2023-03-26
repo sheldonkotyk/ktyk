@@ -13,6 +13,8 @@ content_area:
         locate: right
   -
     type: paragraph
+    attrs:
+      textAlign: left
     content:
       -
         type: text
@@ -44,13 +46,16 @@ content_area:
         text: .
   -
     type: paragraph
+    attrs:
+      textAlign: left
     content:
       -
         type: text
-        text: "Join Sheldon and Kirk at 1:30PM Eastern Time on Wednesdays. Don't forget to like, subscribe, and hit the bell to be notified of future livestreams as well as the well produced videos that Kirk occasionally drops."
+        text: "Join Sheldon and Kirk at the new time of 9:00PM Eastern Time on Tuesdays. Don't forget to like, subscribe, and hit the bell to be notified of future livestreams as well as the well produced videos that Kirk occasionally drops."
   -
     type: heading
     attrs:
+      textAlign: left
       level: 3
     content:
       -
@@ -58,6 +63,8 @@ content_area:
         text: 'Recent Streams'
   -
     type: paragraph
+    attrs:
+      textAlign: left
   -
     type: set
     attrs:
@@ -67,16 +74,18 @@ content_area:
         videos:
           -
             id: leq9rnxt
-            video_url: 'https://www.youtube.com/watch?v=nbD42Y4Bg1s'
+            video_url: 'https://www.youtube.com/watch?v=5ghSN0fMDlg'
             type: video
             enabled: true
           -
             id: ldcjysnd
-            video_url: 'https://www.youtube.com/watch?v=UrtCHVyuAdQ'
+            video_url: 'https://www.youtube.com/watch?v=wm2pfDNaOug'
             type: video
             enabled: true
   -
     type: paragraph
+    attrs:
+      textAlign: left
     content:
       -
         type: text
@@ -96,5 +105,5 @@ content_area:
         type: text
         text: .
 updated_by: 30240118-ccf0-437f-a925-abf0a38bac95
-updated_at: 1677710936
+updated_at: 1679810145
 ---
