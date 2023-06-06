@@ -15,7 +15,7 @@ class Duration extends Modifier
      * @param  array  $context  Contextual values
      * @return mixed
      */
-    public function index($value, $params, $context)
+    public function index($value, array $params, array $context)
     {
         if (! $value) {
             return;
