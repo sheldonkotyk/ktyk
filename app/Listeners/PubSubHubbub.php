@@ -2,10 +2,8 @@
 
 namespace App\Listeners;
 
-use Statamic\Events\EntrySaved;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Support\Facades\Http;
+use Statamic\Events\EntrySaved;
 
 class PubSubHubbub
 {
@@ -30,7 +28,7 @@ class PubSubHubbub
         if (app()->environment('production') && config('podcaster.pubsubhubbub.enabled')) {
             $response = Http::asForm()->post('https://pubsubhubbub.appspot.com', [
                 'hub.mode' => 'publish',
-                'hub.url' => route('feed')
+                'hub.url' => route('feed'),
             ]);
         }
     }
