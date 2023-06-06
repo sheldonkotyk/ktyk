@@ -23,7 +23,7 @@ class PubSubHubbub
      * @param  object  $event
      * @return void
      */
-    public function handle(EntrySaved $event)
+    public function handle(EntrySaved $event): void
     {
         if (app()->environment('production') && config('podcaster.pubsubhubbub.enabled')) {
             $response = Http::asForm()->post('https://pubsubhubbub.appspot.com', [
