@@ -51,7 +51,7 @@ content_area:
     content:
       -
         type: text
-        text: "Join Sheldon and Kirk at the new time of 9:00PM Eastern Time on Tuesdays. Don't forget to like, subscribe, and hit the bell to be notified of future livestreams as well as the well produced videos that Kirk occasionally drops."
+        text: "We're taking a little break as Kirk is taking some time off. Don't forget to like, subscribe, and hit the bell to be notified of future livestreams as well as the well produced videos that Kirk occasionally drops."
   -
     type: heading
     attrs:
@@ -105,5 +105,5 @@ content_area:
         type: text
         text: .
 updated_by: 30240118-ccf0-437f-a925-abf0a38bac95
-updated_at: 1686235588
+updated_at: 1686235673
 ---

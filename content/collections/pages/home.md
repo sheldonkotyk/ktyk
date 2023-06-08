@@ -9,6 +9,8 @@ links:
 content_area:
   -
     type: paragraph
+    attrs:
+      textAlign: left
     content:
       -
         type: text
@@ -57,6 +59,8 @@ content_area:
         text: .
   -
     type: paragraph
+    attrs:
+      textAlign: left
     content:
       -
         type: text
@@ -91,6 +95,8 @@ content_area:
         text: '. He serves a team of more than 40 dedicated staff and hundreds of online missionaries.'
   -
     type: paragraph
+    attrs:
+      textAlign: left
     content:
       -
         type: text
@@ -106,7 +112,29 @@ content_area:
               target: null
               title: null
         text: 'Abigah Co.'
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Latest Blog Posts'
+  -
+    type: set
+    attrs:
+      id: lin9ju7n
+      values:
+        type: latest_news
+        number_to_show: 3
+        display: vertical
+        cards_per_row: 3
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
 updated_by: 30240118-ccf0-437f-a925-abf0a38bac95
-updated_at: 1673900426
+updated_at: 1686249146
 ---
 Welcome to your new Statamic website.

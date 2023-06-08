@@ -1,7 +1,7 @@
 {{# Partial for "latest news" type in Bard fieldset #}}
 
 {{ scope:jason }}
-{{ collection from="news|case_studies" as="entry" paginate="true" limit="{number_to_show}" }}
+{{ collection from="blogs" as="entry" paginate="true" limit="{number_to_show}" }}
 {{ if entry | count == 0 }}
     There are no blog entries published.
 {{  /if  }}
@@ -40,8 +40,6 @@
   {{ else }}
       {{ if segment_one == "" }}
         <div class="py-8 bg-brand-charcoal">
-            <div class="container px-4 mx-auto text-xl font-black text-gray-300 md:px-0">News &amp; Blog</div>
-            <div class="container px-4 mx-auto mb-8 text-4xl font-black md:px-0 text-brand-androidgreen">Check out our latest and greatest.</div>
             <div class="container mx-auto font-brand">
                 <div class="flex-wrap -mx-4 md:flex">
                     {{ entry }}
