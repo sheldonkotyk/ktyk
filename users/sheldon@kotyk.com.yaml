@@ -3,7 +3,7 @@ super: true
 roles:
   - admin
 id: 30240118-ccf0-437f-a925-abf0a38bac95
-password_hash: $2y$10$qVGZNfWmOOT5LxlGa7.zSutXp/91nNBIz7LDYbpeXs2JqaBb5P8ji
+password_hash: $2y$10$NA9BZ3EGb/F7x5atNdoj5OKw4eFdiBZem0ux2kI0FUbFK28Z/AcES
 preferences:
   collections:
     pages:
