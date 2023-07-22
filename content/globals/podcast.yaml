@@ -1,6 +1,7 @@
 title: Podcast
 data:
   title: 'Sheldon Kotyk'
+  cover_art: artwork/favicon.png
   description: 'Updates, news, and interviews from Sheldon Kotyk'
   type: desc
   primary_category: 'Society & Culture » Personal Journals'
