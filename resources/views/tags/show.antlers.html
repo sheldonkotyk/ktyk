@@ -6,13 +6,9 @@
             {{ if feature_image }}
                 {{ asset:feature_image }}<img class="mt-4" src="{{ feature_image }}"/>{{ /asset:feature_image }}
             {{ /if }}
-            {{ if content_area }}
-                <div class="pt-8 mt-8 content">
-                    {{ content_area }}
-                        {{ partial src="default/{type}" }}
-                    {{ /content_area }}
-                </div>
-            {{ /if }}
+            {{ entries }}
+                <a href="{{ url }}">{{ title }}</a>
+            {{ /entries }}
         </article>
     </div>
 </div>

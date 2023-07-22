@@ -65,22 +65,19 @@ return [
         'blogs' => [
             'include'   => true,
             'frequency' => 'weekly',
-            'priority'  => '0.7',
-            'includeTaxonomies' => true
+            'priority'  => '0.7'
         ],
 
         'episodes' => [
             'include'   => true,
             'frequency' => 'monthly',
-            'priority'  => '0.7',
-            'includeTaxonomies' => true
+            'priority'  => '0.7'
         ],
 
         'pages' => [
             'include'           => true,
             'frequency'         => 'yearly',
-            'priority'          => '0.5',
-            'includeTaxonomies' => true
+            'priority'          => '0.5'
         ]
     ],
 
