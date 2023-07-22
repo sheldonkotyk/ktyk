@@ -1,81 +1,87 @@
 title: Pages
-sections:
+tabs:
   main:
     display: Main
-    fields:
+    sections:
       -
-        handle: title
-        field:
-          type: text
-          required: true
-          validate:
-            - required
-      -
-        handle: feature_image
-        field:
-          mode: list
-          container: main
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          max_files: 1
-          display: 'Feature Image'
-          type: assets
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        import: content_block
-      -
-        handle: template
-        field:
-          type: template
-          display: Template
-          localizable: true
-      -
-        handle: links
-        field:
-          mode: default
-          collections:
-            - links
-          display: Links
-          type: entries
-          icon: entries
-          instructions: 'Link to your podcast on various networks'
-          listable: hidden
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: feature_image
+            field:
+              mode: list
+              container: main
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              max_files: 1
+              display: 'Feature Image'
+              type: assets
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            import: content_block
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
+              localizable: true
+          -
+            handle: links
+            field:
+              mode: default
+              collections:
+                - links
+              display: Links
+              type: entries
+              icon: entries
+              instructions: 'Link to your podcast on various networks'
+              listable: hidden
   sidebar:
     display: Sidebar
-    fields:
+    sections:
       -
-        handle: slug
-        field:
-          type: slug
-          localizable: true
-          validate:
-            - required
-            - 'unique_entry_value:{collection},{id},{site}'
-      -
-        handle: parent
-        field:
-          type: entries
-          collections:
-            - pages
-          max_items: 1
-          listable: false
-          localizable: true
-      -
-        handle: tags
-        field:
-          mode: typeahead
-          create: true
-          taxonomies:
-            - tags
-          display: Tags
-          type: terms
-          icon: taxonomy
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate:
+                - required
+                - 'unique_entry_value:{collection},{id},{site}'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
+          -
+            handle: tags
+            field:
+              mode: typeahead
+              create: true
+              taxonomies:
+                - tags
+              display: Tags
+              type: terms
+              icon: taxonomy
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            import: meta_

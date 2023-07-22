@@ -2,6 +2,8 @@ title: Episodes
 template: episodes/show
 layout: layout
 mount: 902d111c-b83e-43fe-98e0-80b83a33d750
+taxonomies:
+  - tags
 revisions: false
 route: '/{mount}/{slug}'
 date: true

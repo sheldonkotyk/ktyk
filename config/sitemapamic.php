@@ -65,14 +65,22 @@ return [
         'blogs' => [
             'include'   => true,
             'frequency' => 'weekly',
-            'priority'  => '0.7'
+            'priority'  => '0.7',
+            'includeTaxonomies' => true
+        ],
+
+        'episodes' => [
+            'include'   => true,
+            'frequency' => 'monthly',
+            'priority'  => '0.7',
+            'includeTaxonomies' => true
         ],
 
         'pages' => [
             'include'           => true,
             'frequency'         => 'yearly',
             'priority'          => '0.5',
-            'includeTaxonomies' => true,
+            'includeTaxonomies' => true
         ]
     ],
 
@@ -94,12 +102,12 @@ return [
     */
     'globals'  => [
         'taxonomies' => [
-            'tags' => [
+            /*'tags' => [
                 'frequency' => 'yearly',
                 'priority'  => '0.5',
-            ],
+            ]
 
-            /*'categories' => []*/
+            'categories' => []*/
         ]
     ],
 

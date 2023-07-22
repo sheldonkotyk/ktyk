@@ -1,0 +1,56 @@
+title: Meta
+fields:
+  -
+    handle: meta_include_in_xml_sitemap
+    field:
+      options:
+        default: Default
+        'false': 'False'
+        'true': 'True'
+      default: default
+      type: button_group
+      display: meta_include_in_xml_sitemap
+      icon: button_group
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: meta_change_frequency
+    field:
+      options:
+        default: Default
+        always: Always
+        hourly: Hourly
+        daily: Daily
+        weekly: Weekly
+        monthly: Monthly
+        yearly: Yearly
+      taggable: false
+      push_tags: false
+      multiple: false
+      clearable: false
+      searchable: true
+      cast_booleans: false
+      default: default
+      type: select
+      display: meta_change_frequency
+      icon: select
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: meta_priority
+    field:
+      default: '1.0'
+      type: float
+      display: meta_priority
+      icon: float
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+      validate:
+        - 'min:0.0'
+        - 'max:1.0'
