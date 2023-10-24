@@ -1,2 +1,4 @@
 admin:
   title: Admin
+  permissions:
+    - 'access default site'
