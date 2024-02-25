@@ -3,16 +3,20 @@ id: 144bc2cd-9b3c-498e-bc14-6e225c050063
 blueprint: pages
 title: About
 updated_by: 30240118-ccf0-437f-a925-abf0a38bac95
-updated_at: 1661983444
+updated_at: 1708824740
 content_area:
   -
     type: paragraph
+    attrs:
+      textAlign: left
     content:
       -
         type: text
         text: 'My name is Sheldon Kotyk.'
   -
     type: paragraph
+    attrs:
+      textAlign: left
     content:
       -
         type: text
@@ -61,6 +65,8 @@ content_area:
         text: .
   -
     type: paragraph
+    attrs:
+      textAlign: left
     content:
       -
         type: text
@@ -78,49 +84,7 @@ content_area:
         text: 'best friend Julie'
       -
         type: text
-        text: "\_and we have three daughters;\_"
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'http://kristinkotyk.com'
-              rel: null
-              target: null
-              title: null
-        text: Kristin
-      -
-        type: text
-        text: ",\_"
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'http://avakotyk.com'
-              rel: null
-              target: null
-              title: null
-        text: Ava
-      -
-        type: text
-        text: "\_and\_"
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'http://jamiekotyk.com'
-              rel: null
-              target: null
-              title: null
-        text: Jamie
-      -
-        type: text
-        text: '. We have a '
+        text: "\_and we have three daughters;\_Kristin,\_Ava\_and\_Jamie. We have a "
       -
         type: text
         marks:
@@ -134,9 +98,25 @@ content_area:
         text: 'dog named Boston'
       -
         type: text
-        text: ' and also have two cats; Candycorn and Popcorn.'
+        text: ' and also have three cats; Candycorn, Popcorn and '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.instagram.com/theodorecorneliusfeles/'
+              rel: null
+              target: null
+              title: null
+        text: 'Theodore Cornelious'
+      -
+        type: text
+        text: .
   -
     type: paragraph
+    attrs:
+      textAlign: left
     content:
       -
         type: text
@@ -185,6 +165,8 @@ content_area:
         text: .
   -
     type: paragraph
+    attrs:
+      textAlign: left
     content:
       -
         type: text
@@ -203,5 +185,7 @@ content_area:
       -
         type: text
         text: .
-published: true
+meta_include_in_xml_sitemap: default
+meta_change_frequency: default
+meta_priority: 1.0
 ---
